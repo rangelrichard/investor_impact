@@ -1,20 +1,44 @@
-This is your group repo for your final project for COGS108.
+# San Diego Housing Market Analysis
+### Project Overview
+This project analyzes the relationship between institutional investor activity and housing price appreciation across San Diego zip codes. Using data from Redfin, Zillow, and demographic sources, the analysis examines how investor activity correlates with housing price movements at the zip code level, with a particular focus on whether areas with higher investor activity experience faster price appreciation.
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+### Key Findings
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+Investors tend to target higher-income neighborhoods in San Diego
+A moderate negative correlation exists between investor activity and housing price appreciation
+When accounting for median income and sales volume through a weighted model, this negative relationship becomes stronger and more statistically significant
+Clustering analysis identified distinct neighborhood patterns based on investor activity, price appreciation, and income levels
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+### Methodology
+The analysis employs several data science techniques:
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+Exploratory Data Analysis (EDA) to understand variable distributions and relationships
+K-means clustering to identify natural groupings of zip codes
+Correlation analysis to quantify relationships between variables
+Weighted average modeling to incorporate economic contextual factors
+Geographic visualization to identify spatial patterns
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+### Data Sources
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
+Redfin Investor Activity Data
+Zillow Home Value Index (ZHVI)
+Demographic and income data
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+### Technologies Used
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+Python (Pandas, NumPy, Matplotlib, Seaborn)
+Geospatial analysis (GeoPandas)
+Machine learning techniques (scikit-learn)
+Statistical analysis (SciPy)
+
+### Repository Structure
+This repository contains a series of Jupyter notebooks that document the progression of the project through various stages:
+
+- `ProjectProposal_groupXXX.ipynb`: Initial project planning and research question formulation
+- `DataCheckpoint_groupXXX.ipynb`: Data acquisition and preliminary processing
+- `EDACheckpoint_groupXXX.ipynb`: In-depth exploratory data analysis
+- `FinalProject_groupXXX.ipynb`: Complete analysis and findings
+
+These notebooks reflect the development workflow throughout the course, from initial concept to final analysis.
+### Note
+This project was completed as part of a data science course. The analysis and findings represent academic research and should not be used as the sole basis for investment decisions without additional research.
