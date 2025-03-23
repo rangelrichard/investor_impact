@@ -4,32 +4,32 @@ This project analyzes the relationship between institutional investor activity a
 
 ### Key Findings
 
-Investors tend to target higher-income neighborhoods in San Diego
-A moderate negative correlation exists between investor activity and housing price appreciation
-When accounting for median income and sales volume through a weighted model, this negative relationship becomes stronger and more statistically significant
-Clustering analysis identified distinct neighborhood patterns based on investor activity, price appreciation, and income levels
+- Investors tend to target higher-income neighborhoods in San Diego
+- A moderate negative correlation exists between investor activity and housing price appreciation
+- When accounting for median income and sales volume through a weighted model, this negative relationship becomes stronger and more statistically significant
+- Clustering analysis identified distinct neighborhood patterns based on investor activity, price appreciation, and income levels
 
 ### Methodology
 The analysis employs several data science techniques:
 
-Exploratory Data Analysis (EDA) to understand variable distributions and relationships
-K-means clustering to identify natural groupings of zip codes
-Correlation analysis to quantify relationships between variables
-Weighted average modeling to incorporate economic contextual factors
-Geographic visualization to identify spatial patterns
+- Exploratory Data Analysis (EDA) to understand variable distributions and relationships
+- K-means clustering to identify natural groupings of zip codes
+- Correlation analysis to quantify relationships between variables
+- Weighted average modeling to incorporate economic contextual factors
+- Geographic visualization to identify spatial patterns
 
 ### Data Sources
 
-Redfin Investor Activity Data
-Zillow Home Value Index (ZHVI)
-Demographic and income data
+- Redfin Investor Activity Data
+- Zillow Home Value Index (ZHVI)
+- Demographic and income data
 
 ### Technologies Used
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
-Geospatial analysis (GeoPandas)
-Machine learning techniques (scikit-learn)
-Statistical analysis (SciPy)
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Geospatial analysis (GeoPandas)
+- Machine learning techniques (scikit-learn)
+- Statistical analysis (SciPy)
 
 ### Repository Structure
 This repository contains a series of Jupyter notebooks that document the progression of the project through various stages:
@@ -39,6 +39,5 @@ This repository contains a series of Jupyter notebooks that document the progres
 - `EDACheckpoint_groupXXX.ipynb`: In-depth exploratory data analysis
 - `FinalProject_groupXXX.ipynb`: Complete analysis and findings
 
-These notebooks reflect the development workflow throughout the course, from initial concept to final analysis.
 ### Note
 This project was completed as part of a data science course. The analysis and findings represent academic research and should not be used as the sole basis for investment decisions without additional research.
